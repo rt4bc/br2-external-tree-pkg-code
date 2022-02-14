@@ -1,7 +1,7 @@
 .PHONY: clean
 
 all: main.c
-    $(CC) -o pkg-2 $<
+	$(CC) -o pkg-2 $<
 
 clean:
-    rm pkg-2
+	rm pkg-2
